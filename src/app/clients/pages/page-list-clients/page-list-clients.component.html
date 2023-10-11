@@ -1,0 +1,27 @@
+<h1 class="text-center"> Liste des Clients</h1>
+<div>
+  <table class="table table-striped  table-hover" style="max-width: 1200px; margin: 40px auto">
+    <thead>
+    <tr>
+      <th scope="col" *ngFor="let header of headers">{{header | titlecase}}</th>
+    </tr>
+    </thead>
+    <tbody >
+    <tr *ngFor="let client of clients">
+      <td>{{client.name}}</td>
+      <td>{{client.tva}}</td>
+      <td>{{client.status}}</td>
+      <td>{{client.totalHorsTax | total : client.tva }}</td>
+      <td>{{client.totalHorsTax | currency : 'EUR'}}</td>
+      <td>{{client.feedback}}</td>
+
+      <td class="">
+        <button class="btn btn-primary me-2">Editer</button>
+        <button class="btn btn-danger">Supprimer</button>
+      </td>
+    </tr>
+    </tbody>
+
+  </table>
+</div>
+

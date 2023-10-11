@@ -1,0 +1,86 @@
+{
+  "orders": [
+    {
+      "ratePerHour": 1000,
+      "hours": 2,
+      "tva": 20,
+      "status": "COMPLETED",
+      "sessionType": "workshop",
+      "client": "TechFlow",
+      "notes": "Well received by participants.",
+      "sessionId": 1
+    },
+    {
+      "ratePerHour": 1100,
+      "hours": 8,
+      "tva": 20,
+      "status": "PENDING",
+      "sessionType": "seminar",
+      "client": "InnovateTech",
+      "notes": "",
+      "sessionId": 2
+    },
+    {
+      "ratePerHour": 950,
+      "hours": 3,
+      "tva": 20,
+      "status": "CANCELLED",
+      "sessionType": "webinar",
+      "client": "TechFlow",
+      "notes": "Reschedule requested.",
+      "sessionId": 3
+    },
+    {
+      "ratePerHour": 1050,
+      "hours": 5,
+      "tva": 20,
+      "status": "ONGOING",
+      "sessionType": "workshop",
+      "client": "CodeSprint",
+      "notes": "Additional materials needed.",
+      "sessionId": 4
+    }
+  ],
+  "clients": [
+    {
+      "name": "TechFlow",
+      "tva": 20,
+      "totalHorsTax": 100000,
+      "feedback": "Interested in more sessions.",
+      "status": "ACTIVE",
+      "id": 1
+    },
+    {
+      "status": "INACTIVE",
+      "tva": 20,
+      "id": 2,
+      "name": "InnovateTech",
+      "totalHorsTax": 80000,
+      "feedback": "Considering future collaborations."
+    },
+    {
+      "tva": 20,
+      "status": "ACTIVE",
+      "name": "CodeSprint",
+      "totalHorsTax": 50000,
+      "feedback": "Requested advanced topics.",
+      "id": 3
+    },
+    {
+      "name": "TechFlowaaartrtr",
+      "tva": 20,
+      "totalHorsTax": 100000,
+      "feedback": "Interested in more sessions.",
+      "status": "ACTIVE",
+      "id": 6
+    },
+    {
+      "name": "rgg",
+      "tva": 58,
+      "totalHorsTax": 3582,
+      "feedback": "ç!",
+      "status": "ACTIVE",
+      "id": 7
+    }
+  ]
+}
